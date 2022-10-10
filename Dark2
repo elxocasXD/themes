@@ -52,8 +52,6 @@ local Tab = Window:NewTab("Main")
 
 
 
-
-
 local Section = Tab:NewSection("Speed Bypass")
 
 
@@ -3001,9 +2999,12 @@ coroutine.wrap(NZUQWVR_fake_script)()
 end)
  
 
+local Section = Tab:NewSection("Themes for UI")
 
+Section:NewButton("Select Themes", "8 new themes", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/elxocasXD/scripts/main/select.lua"))()
 
-
+end)
 --noti owner
 loadstring(game:HttpGet("https://raw.githubusercontent.com/GamerEmilianoFF/scripts/main/theow.lua"))()
 
