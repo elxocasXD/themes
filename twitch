@@ -3162,7 +3162,7 @@ local function UKQGHD_fake_script() -- TextButton.Open
 		state = not state
 		if not state then
 			script.Parent.Text = "open UI"
-			game:GetService("CoreGui")["Trip Hub"].Enabled = false
+			game:GetService("CoreGui")["Trip Hub Premiun"].Enabled = false
 			for i, v in pairs(script.Parent.Parent.Parent:GetChildren()) do
 				if v:IsA("TextButton") then 
 					--script:
@@ -3173,7 +3173,7 @@ local function UKQGHD_fake_script() -- TextButton.Open
 			end
 		else
 			script.Parent.Text = "close UI"
-			game:GetService("CoreGui")["Trip Hub"].Enabled = true
+			game:GetService("CoreGui")["Trip Hub Premiun"].Enabled = true
 			for i, v in pairs(script.Parent.Parent.Parent:GetChildren()) do
 				if v:IsA("TextButton") then 
 					--script:
